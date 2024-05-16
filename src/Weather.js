@@ -32,31 +32,31 @@ export default function Weather() {
               </form>
             </header>
             <main>
-              <div className="weather-data">
+              <div class="weather-data">
                 <div>
-                  <h1 id="current-city"></h1>
-                  <p className="info">
-                    <span id="current-day-time"></span>
-                    <span id="current-conditions"></span>
+                  <h1 id="current-city">Vancouver</h1>
+                  <p class="info">
+                    <span id="current-day-time">Wednesday, 8:30pm/PST</span>
+                    <span id="current-conditions"> Cloudy</span>
                     <br />
-                    Humidity: <strong id="humidity"></strong> Wind:
-                    <strong id="wind"></strong>
+                    Humidity: <strong id="humidity">75%</strong> Wind:
+                    <strong id="wind"> 6 km/hr</strong>
                   </p>
                 </div>
-                <div className="current-temp">
-                  <div id="temp-icon"></div>
-                  <div className="temp-value"></div>
-                  <div className="temp-unit">°C</div>
+                <div class="current-temp">
+                  <div id="temp-icon"> 🌥</div>
+                  <div class="temp-value">9</div>
+                  <div class="temp-unit">°C</div>
                 </div>
               </div>
-              <div className="weather-forecast" id="forecast"></div>
+              <div class="weather-forecast" id="forecast"></div>
             </main>
             <script src="src/index.js"></script>
             <footer>
               coded by
               <a href="https://github.com/AshleyIScott" target="_blank">
                 {" "}
-                Ashley Irving-Scott
+                Ashley Irving-Scott{" "}
               </a>
               ◇ open-sourced on
               <a
@@ -64,7 +64,7 @@ export default function Weather() {
                 target="_blank"
               >
                 {" "}
-                GitHub
+                GitHub{" "}
               </a>
               ◇ hosted on
               <a
