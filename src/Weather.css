@@ -1,0 +1,118 @@
+body {
+  background: #889aae;
+  color: #dee1e4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app {
+  background: linear-gradient(
+    109.6deg,
+    rgb(43, 67, 98) 11.2%,
+    rgba(0, 36, 84, 0.235) 100.2%
+  );
+  border-radius: 7px;
+  box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.1);
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 15px;
+}
+
+header {
+  border-bottom: 0.1px solid rgba(205, 226, 234, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.search-city-input {
+  background: #ccddf0;
+  border: 0.7px solid #5d7ca1;
+  border-radius: 8px;
+  box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  padding: 7px 35px;
+}
+.search-button {
+  background: #abcff3;
+  border: 1px solid #5d7ca1;
+  border-radius: 8px;
+  box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.1);
+  color: #465769;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 18px;
+}
+
+main {
+  padding: 25px 10px;
+}
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+#current-city {
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0;
+}
+.info {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.info strong {
+  color: #abcff3;
+}
+.current-temp {
+  display: flex;
+}
+.temp-value {
+  font-size: 85px;
+  font-weight: 900;
+}
+.temp-unit {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.temp-icon {
+  width: 100px;
+  height: 70px;
+}
+
+footer {
+  border-top: 0.1px solid rgba(205, 226, 234, 0.1);
+  font-size: 14px;
+  padding-top: 13px;
+  text-align: center;
+}
+a {
+  color: #abcff3;
+  text-decoration: none;
+  font-weight: 525;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  text-align: center;
+}
+.weather-forecast-day {
+  border: 0.1px solid rgba(205, 226, 234, 0.1);
+  border-radius: 11px;
+  padding: 30px;
+}
+.forecast-day {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.forecast-temp {
+  margin-top: 10px;
+}
+.forecast-low {
+  opacity: 0.5;
+}
+.forecast-low .forecast-hi {
+  font-size: 15px;
+}
+.forecast-icon {
+  height: 40px;
+  width: 45px;
+}
