@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 
 export default function Weather() {
   return (
@@ -33,18 +34,18 @@ export default function Weather() {
             <main>
               <div className="weather-data">
                 <div>
-                  <h1 id="current-city">Vancouver</h1>
-                  <p class="info">
-                    <span id="current-day-time">Sunday, 5:30pm</span>
-                    <span id="current-conditions"> Cloudy</span>
+                  <h1 id="current-city"></h1>
+                  <p className="info">
+                    <span id="current-day-time"></span>
+                    <span id="current-conditions"></span>
                     <br />
-                    Humidity: <strong id="humidity">75%</strong> Wind:
-                    <strong id="wind"> 6 km/hr</strong>
+                    Humidity: <strong id="humidity"></strong> Wind:
+                    <strong id="wind"></strong>
                   </p>
                 </div>
                 <div className="current-temp">
-                  <div id="temp-icon"> 🌥</div>
-                  <div className="temp-value">9</div>
+                  <div id="temp-icon"></div>
+                  <div className="temp-value"></div>
                   <div className="temp-unit">°C</div>
                 </div>
               </div>
@@ -59,7 +60,7 @@ export default function Weather() {
               </a>
               ◇ open-sourced on
               <a
-                href="https://github.com/AshleyIScott/Weather-App-Final"
+                href="https://github.com/AshleyIScott/ReactWeatherApp"
                 target="_blank"
               >
                 {" "}
@@ -67,7 +68,7 @@ export default function Weather() {
               </a>
               ◇ hosted on
               <a
-                href="https://deluxe-starlight-20ace5.netlify.app/"
+                href="https://main--dashing-trifle-8edf30.netlify.app/"
                 target="_blank"
               >
                 {" "}
